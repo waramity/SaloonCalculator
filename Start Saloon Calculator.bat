@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set "APP=%~dp0SaloonCalculator.html"
+set "APP=%~dp0index.html"
 set "URL=file:///%APP:\=/%"
 set "EDGE=%ProgramFiles(x86)%\Microsoft\Edge\Application\msedge.exe"
 if not exist "%EDGE%" set "EDGE=%ProgramFiles%\Microsoft\Edge\Application\msedge.exe"
